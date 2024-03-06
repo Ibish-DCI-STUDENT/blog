@@ -1,0 +1,9 @@
+<!-- templates/home.html -->
+{% extends "base.html" %}
+
+{% block content %}
+{{text}}
+{% for item in list %}
+{{item}}
+{% endfor %}
+{% endblock content %}
